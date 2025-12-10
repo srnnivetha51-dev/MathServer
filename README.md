@@ -31,7 +31,9 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM:
+```
 nivi.html
+
 <html>
     <head>
         <title>
@@ -101,6 +103,7 @@ from django.urls import path
 from mathapp import views
 urlpatterns = [path('',views.mileage,name='vehicle')
 
+```
 
 ## OUTPUT - SERVER SIDE:
 
